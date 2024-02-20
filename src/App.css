@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+
+html{
+  background-color: rgb(226, 226, 226);;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --fonte-principal: 'Work Sans', sans-serif;
+
+    --fonte-secundaria: 'Poppins', sans-serif;
+
+    --fonte-terciaria: 'DM Serif Display', serif;
+
+    --gradiente: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 24%, rgba(8,124,148,1) 100%);
+
+    --gradiente2: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(186,186,186,1) 31%, rgb(153, 152, 152) 100%);
+
+    --cor-fundo: rgb(13, 40, 161);
+
+    --branco: white;
+
+    box-sizing:border-box;
+}
+
+.titulo-card{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  color: var(--branco);
+  text-transform: uppercase;
+  border-bottom: solid 2px;
+  margin-bottom: 3px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.main{
+  background-color: rgb(226, 226, 226);
+}
+
+.mensagem-sub{
+  text-align: center;
+  background-color: red;
+  color: var(--branco); 
+  margin-bottom: 0;
+}
+
+.mensagem-voltar{
+  color: black;
+}
+
+.anuncio{
+  color: rgba(255, 255, 255, 0.356);
+  text-align: center;
+}
+
+.div-principal{
+  display: flex;
+  background-color: var(--cor-fundo);
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.div-secundaria{
+  padding: 5px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.botao-cadastrar{
+  font-family: var(--fonte-principal);
+  font-weight: 600;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--branco);
+  border-bottom: solid 2px;
+}
+
+.material-symbols-outlined{
+  font-size: 1.25rem;
+  margin-right: 8px;
+}
+
+.botao-cadastrar:hover{
+  color: rgb(150, 145, 145);
+  background-color: var(--branco);
+  transition-duration: 0.5s;
+  border-color: var(--branco);
+}
+
+.container-placeholders{
+  padding-top: 8px;
+}
+
+.placeholders{
+  padding: 0.5rem 1rem 0 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  font-family: var(--fonte-secundaria);
+  color: var(--branco);
+  font-weight: 800;
+ }
+
+.info-motorista{
+  padding: 1rem;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-color: var(--branco);
+  font-family: var(--fonte-secundaria);
+  font-weight: 500;
+  color: rgb(251, 255, 0)
+}
+
+
+.botao-editar{
+  border-color: aqua;
+  color: var(--branco);
+  text-decoration: none;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.botao-editar:hover{
+  transition-duration: 0.7s;
+  color: rgb(179, 176, 176);
+}
+
+.editar-span{
+  font-size: 2rem;
+
+}
+
+.botao-excluir{
+  background: none;
+  border: none;
+  text-decoration: none;
+  padding-right: 0px;
+  margin-left: 0.25rem;
+  color: var(--branco);
+}
+
+.botao-excluir:hover{
+  transition-duration: 0.7s;
+  color: rgb(179, 176, 176);
+}
+
+.excluir-span{
+  font-size: 2.2rem;
+  }
+
+
+@media (max-width:720px){
+
+  .placeholders{
+    font-size: 1rem;
+  }
+
+  .ph-modelo{
+    display: none;
+  }
+
+  .ph-placa{
+    display: none;
+  }
+}
+
+@media (max-width:1024px){
+
+
+
+}

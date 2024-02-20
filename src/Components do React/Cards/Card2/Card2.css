@@ -1,0 +1,37 @@
+@import url('../../../App.css');
+
+.card2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background: var(--gradiente);
+}
+
+.linhas2 {
+    background: var(--gradiente2);
+}
+
+.titulo2 {
+    background: var(--gradiente);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto2 {
+    color: blue;
+}
+
+.imagem2{
+    border-color: var(--branco);
+    width: 40vw;
+}
+
+@media(max-width:720px){
+    
+}
+
+@media (max-width:1024px){
+    .imagem2{
+        height: 20%;
+    }
+}

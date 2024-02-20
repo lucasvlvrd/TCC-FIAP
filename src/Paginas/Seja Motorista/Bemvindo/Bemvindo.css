@@ -1,0 +1,26 @@
+@import url('../../../App.css');
+
+.bemvindodiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bemvindo{
+    font-family: var(--fonte-terciaria);
+    margin-top: 0.5rem;
+    border-bottom: solid 3px;
+        border-color: blue;
+    align-self: center;
+    justify-content: center;
+    background: var(--gradiente);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+.bemvindo-texto{
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    color: blue;
+}

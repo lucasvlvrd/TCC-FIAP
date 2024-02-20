@@ -1,0 +1,116 @@
+@import url('../../App.css');
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    color: var(--branco);
+    background-color: rgb(10, 28, 105);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: default;
+}
+
+.footer-titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+}
+
+.div-footer {
+    text-align: center;
+}
+
+.lista-contato {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: none;
+}
+
+.footer-logos {
+    margin: 2px;
+}
+
+.lista-contato-item {
+    margin-right: 1rem;
+}
+
+.convite {
+    text-align: center;
+    background: var(--gradiente2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.convite-titulo,
+.convite-texto {
+    background: var(--gradiente)2;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.convite-titulo {
+    font-family: var(--fonte-terciaria);
+    font-size: 2rem;
+}
+
+.convite-texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+}
+
+.informacoes-item {
+    color: grey;
+    margin-right: 10px;
+}
+
+.material-symbols-outlined {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+}
+
+@media (max-width:720px) {
+    .footer-container {
+        text-align: justify;
+    }
+
+    .footer-logos {
+        height: 1rem;
+    }
+
+    .lista-contato-item {
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .convite-titulo{
+        font-size: 1.25rem;
+    }
+
+    .convite-texto{
+        font-size: 0.8rem;
+    }
+
+    .informacoes-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .span{
+        display: none;
+    }
+}

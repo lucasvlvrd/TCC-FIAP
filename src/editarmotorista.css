@@ -1,0 +1,56 @@
+@import url('./App.css');
+
+
+.FormCadastro-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-fundo);
+    padding: 0 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.div-formulario{
+    margin: 0.5rem 0;
+}
+
+.titulo-form{
+    text-transform: uppercase;
+    font-family: var(--fonte-secundaria);
+    color: aliceblue;
+    padding: 0.5rem;
+    border-bottom: 2px solid;
+
+}
+
+.input-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+.label-form{
+    text-transform: uppercase;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    color: white;
+}
+
+.botao-form{
+    width: fit-content;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.botao-form:hover{
+    background: var(--gradiente);
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.6s;
+}

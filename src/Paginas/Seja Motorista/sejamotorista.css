@@ -1,0 +1,38 @@
+@import url('../../App.css');
+
+.sejamotorista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contratando{
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 1rem;
+    background: var(--gradiente);
+    padding: 1rem;
+    font-family: var(--fonte-principal);
+    color: white;
+    border-radius: 1rem;
+}
+
+.contratando-titulo{
+    font-weight: 600;
+    font-family: var(--fonte-terciaria);
+}
+
+@media(max-width: 720px){
+    .sejamotorista{
+        flex-direction: column;
+    }
+
+    .lista-docs{
+        border-right: none;
+    }
+}
+
+@media(max-width: 1024px){
+
+}

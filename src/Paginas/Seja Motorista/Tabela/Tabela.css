@@ -1,0 +1,64 @@
+@import url('../../../App.css');
+
+.tabelasjuntas{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabela-titulo{
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: var(--fonte-terciaria);
+    background: var(--gradiente);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid;
+    border-color: blue;
+    text-align: center;
+}
+
+.tabela-docs-item{
+    border-right: 2px solid;
+    border-color: blue;
+    border-right-style: dashed;
+    padding-right: 8px;
+}
+
+.primeiro{
+    border-left: 2px solid;
+    border-color: blue;
+    border-left-style: dashed;
+    padding-right: 8px;
+}
+
+.tabelafinal{
+    border-right: none;
+}
+
+.tabela-docs-item{
+    font-family: var(--fonte-principal);
+    color: blue;
+    text-align: center;
+    padding: 2px 12px;
+}
+
+@media(max-width: 510px){
+    .tabelasjuntas{
+        flex-direction: column;
+    }
+
+    .tabela-titulo{
+        font-size: 1rem;
+    }
+
+    .tabela-docs-item{
+        padding: 1px 4px;
+    }
+}
+
+@media(max-width: 339px){
+    .beneficios{
+        display: none
+    }
+}

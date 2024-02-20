@@ -1,0 +1,35 @@
+.quemsomos-card {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--gradiente2);
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px;
+}
+
+.card-imagem {
+    height: 80vh;
+    margin: 2rem;
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 0.5rem;
+}
+
+.quemsomos-card-texto {
+    font-family: var(--fonte-principal);
+    background: var(--gradiente);
+    color: var(--branco);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    height: fit-content;
+}
+
+.quemsomos-card1--titulo {
+    font-weight: 700;
+}
+
+.quemsomos-card1--texto {
+    font-family: var(--fonte-secundaria);
+    font-weight: 100;
+}

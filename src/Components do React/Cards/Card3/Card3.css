@@ -1,0 +1,10 @@
+.card-imagem{
+    height: 40vh;
+}
+
+@media (max-width:1024px){
+    .card3imagem{
+        width: 40%;
+        height: 90%;
+    }
+}
