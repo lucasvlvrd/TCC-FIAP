@@ -11,4 +11,6 @@ Minha ideia foi criar um sistema de cadastro de motoristas para uma empresa fict
 
 Para executar o trabalho basta seguir as instruções no pdf "Como Executar".
 
+### *A pasta node-modules não está presente no commit por conter arquivos demais.
+
 
